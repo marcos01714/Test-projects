@@ -1,0 +1,42 @@
+#bodyHome {
+    background-color: rgb(168, 168, 168);
+}
+.p {
+	color:black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: justify;
+}
+
+#h1Body {
+    text-align: center;
+    font-family: Arial;
+}
+
+#p1 {
+	color:black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+}
+
+#conversorb:link, #conversorb:visited {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 14px 25px;
+    text-decoration: none;  
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+#conversorb:hover, #conversorb:active {
+    background-color: black;
+    color: white;
+}

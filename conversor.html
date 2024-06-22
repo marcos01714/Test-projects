@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Decimal e Binário</title>
+    <link rel="stylesheet" href="conversor.css">
+</head>
+<body id="bodyConversor">
+    <script src="Arquivo JS conversor binário (1).js"></script>
+<div class="containerConversor">
+    
+    <h1 id="h1Conversor">Conversor Decimal e Binário</h1>
+    <div class="conversor">
+        <div class="decimal-binario">
+            <h2>Decimal para Binário</h2>
+            <input type="number" id="decimalInput" placeholder="Digite um número decimal"> 
+            <button onclick="converterDecimalParaBinario()">Converter</button>
+            <p id="binarioOutput"></p>
+        </div>
+
+        <div class="binario-decimal">
+
+            <form method="dialog">
+
+            <h2>Binário para Decimal</h2>
+            <input type="text" id="binarioInput" pattern="[01]*" title="Qualquer valor que não seja 0 ou 1 resultará em erro no resultado" placeholder="Digite um número binário">
+            <button onclick="converterBinarioParaDecimal()">Converter</button>
+            <p id="decimalOutput"></p>
+
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
